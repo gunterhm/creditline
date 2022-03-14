@@ -2,9 +2,9 @@ requests:
   allowed:
     any:
       number: 2
-      withinmillis: 10000
+      withinmillis: 120000
     rejected:
-      withinmillis: 5000
+      withinmillis: 30000
 
 
 spring:
