@@ -56,3 +56,13 @@ The response from the service is a JSON object with the following format:
 }
 ```
 
+##Running Test Cases
+
+The project includes test cases that make sure that functional requirements are met.
+
+To start running these test cases just type the following gradle command:
+
+>./gradlew build
+
+The process will show a failure or a success message and will also tell where the test case execution report is on your local file system.
+The test case report is in HTML format.
